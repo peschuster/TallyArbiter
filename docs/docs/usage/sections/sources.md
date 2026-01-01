@@ -9,6 +9,7 @@ Sources represent all of the tally data that is generated. This is usually your 
 The following source types are supported:
 
 - Analog Way Livecore Image Processors
+- Analog Way Livepremier Image Processors
 - Blackmagic ATEM
 - Blackmagic VideoHub
 - Grass Valley Contribution Tally
@@ -29,6 +30,12 @@ When you add a source and the connection to the tally source (video switcher, so
 ## Analog Way Livecore Image Processors
 
 You will need the IP address of the device, and the port (standard port is 10600).
+
+## Analog Way Livepremier Image Processors
+
+You will need the IP address of the device, and the port (standard port is 10606).
+
+Inputs 1 to 32 are monitored for preview and program state.
 
 ## Blackmagic ATEM
 
